@@ -12,3 +12,8 @@ def write_todos(todos_local, filepath="todos.txt"):
     # overwrite the file with appended list
     with open(filepath, 'w') as filew:
         filew.writelines(todos_local)
+
+
+if __name__ == "__main__":
+    print("Functions file is running as main.")
+    print(get_todos())
